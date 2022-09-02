@@ -76,3 +76,10 @@ To install tailwind: https://tailwindcss.com/docs/guides/create-react-app
 
 ### To avoid tailwind unknown error
 Install https://marketplace.visualstudio.com/items?itemName=csstools.postcss
+
+
+### To use tailwind ui install
+npm install @headlessui/react
+
+### To use tailwind ui install
+npm install @heroicons/react

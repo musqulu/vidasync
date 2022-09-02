@@ -1,13 +1,12 @@
 import './App.css';
 
-
-import Signin from './components/Signin';
+import Dashboard from '../components/Dashboard';
 
 
 function App() {
   return (
     <div className="App">
-      <Signin />
+      <Dashboard />
 
     </div>
   );

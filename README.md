@@ -83,3 +83,17 @@ npm install @headlessui/react
 
 ### To use tailwind ui install
 npm install @heroicons/react
+
+
+### To use tailwind ui fomrs install
+npm install -D @tailwindcss/forms and add 
+// tailwind.config.js
+module.exports = {
+  theme: {
+    // ...
+  },
+  plugins: [
+    require('@tailwindcss/forms'),
+    // ...
+  ],
+}

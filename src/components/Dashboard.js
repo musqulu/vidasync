@@ -74,13 +74,13 @@ export default function Example() {
                   </div>
                   <div className="hidden md:block">
                     <div className="ml-4 flex items-center md:ml-6">
-                      <button
+                      {/* <button
                         type="button"
                         className="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
                       >
                         <span className="sr-only">View notifications</span>
                         <BellIcon className="h-6 w-6" aria-hidden="true" />
-                      </button>
+                      </button> */}
 
                       {/* Profile dropdown */}
                       <Menu as="div" className="relative ml-3">
@@ -188,7 +188,7 @@ export default function Example() {
 
         <header className="bg-white shadow-sm">
           <div className="mx-auto max-w-7xl py-4 px-4 sm:px-6 lg:px-8">
-            <h1 className="text-lg font-semibold leading-6 text-gray-900">Dashboard</h1>
+            <h1 className="text-lg font-semibold leading-6 text-gray-900 text-left ">Dashboard</h1>
           </div>
         </header>
         <main>
